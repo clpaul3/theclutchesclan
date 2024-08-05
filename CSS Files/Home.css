@@ -1,0 +1,452 @@
+@font-face{
+    font-family: 'titles'; 
+    src: url('../Fonts/BoldMarker.ttf') format(truetype); 
+}
+
+@font-face{
+    font-family: 'bios';
+    src: url('../Fonts/Stanberry.ttf') format(truetype); 
+}
+
+body{
+    background-color: green;
+
+#settingsbar {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+}
+
+#menubar {
+    position: absolute; 
+    top: 56px; 
+    left: 970px; 
+}
+
+#cllogo {
+    position: absolute; 
+    top: 200px; 
+    left: 106px; 
+
+}
+
+#clanpic {
+    position: absolute; 
+    top: 790px; 
+    left: -60px; 
+
+}
+
+h1 {
+    font-family: 'titles'; 
+    font-size: 99px; 
+    position: absolute; 
+    top: 1480px; 
+    left: 280px; 
+    white-space: nowrap; 
+    color: rgb(0, 255, 0);
+    font-weight: 1;
+}
+
+p1 {
+    font-family: 'bios'; 
+    font-size: 49px; 
+    position: absolute; 
+    top: 1760px; 
+    color: rgb(0, 255, 0);
+    white-space: nowrap; 
+    left: 36px; 
+
+}
+
+h2 {
+    position: absolute; 
+    top: 2300px; 
+    font-size: 99px; 
+    font-family: 'titles'; 
+    font-weight: 1; 
+    color: rgb(0, 255, 0); 
+    left: 40px; 
+}
+
+.whatsnew {
+    position: absolute; 
+    top: 2590px; 
+    left: 13px; 
+    background-color: rgb(0, 255, 0); 
+    color: green; 
+    height: 1760px; 
+    width: 1180px; 
+    font-size: 56px; 
+    font-family: 'bios'; 
+
+}
+
+.divider1 {
+   position: absolute; 
+   height: 20px; 
+   background-color: rgb(0, 195, 19); 
+   top: 4380px; 
+   width: 1180px; 
+   height: 30px; 
+
+
+}
+
+h3 {
+    position: absolute; 
+    color: rgb(0, 255, 0); 
+    font-size: 99px; 
+    font-family: 'titles'; 
+    top: 4330px; 
+    left: 70px; 
+    font-weight: 1; 
+}
+
+p2 {
+    position: absolute; 
+    color: rgb(0, 255, 0);
+    white-space: nowrap; 
+    font-family: 'bios'; 
+    font-size: 65px; 
+    top: 4630px; 
+    left: 35px; 
+
+
+}
+
+p3 {
+    position: absolute; 
+    color: rgb(0, 255, 0);
+    white-space: nowrap; 
+    font-family: 'bios'; 
+    font-size: 70px; 
+    top: 5050px; 
+    left: 220px; 
+}
+
+.divider2 {
+    position: absolute; 
+   height: 20px; 
+   background-color: rgb(0, 195, 19); 
+   width: 1180px; 
+   height: 30px; 
+   top: 6160px; 
+}
+
+h4 {
+    position: absolute; 
+    color: rgb(0, 255, 0); 
+    font-size: 86px; 
+    font-family: 'titles';
+    font-weight: 1; 
+    white-space: nowrap; 
+    top: 6090px; 
+    left: 44px; 
+}
+
+p4{
+    position: absolute; 
+    color: rgb(0, 255, 0);
+    white-space: nowrap; 
+    font-family: 'bios'; 
+    font-size: 65px; 
+    top: 6380px; 
+    left: 27px; 
+
+}
+
+#disocrdserver{
+    position: absolute; 
+    background-color: rgb(0, 255, 0);
+    border: 15px solid; 
+    border-color:rgb(3, 156, 0);
+    width: 500px; 
+    top: 6780px; 
+    height: 90px; 
+    font-size: 50px; 
+    font-family: 'bios'; 
+    left: 340px; 
+}
+
+.divider3 {
+    position: absolute; 
+    height: 20px; 
+    background-color: rgb(0, 195, 19); 
+    width: 1180px; 
+    height: 30px; 
+    top: 6930px; 
+
+}
+
+h5 {
+    position: absolute; 
+    color: rgb(0, 255, 0); 
+    font-size: 86px; 
+    font-family: 'titles';
+    font-weight: 1; 
+    white-space: nowrap; 
+    top: 6840px; 
+    left: 160px; 
+
+}
+
+p5 {
+    position: absolute; 
+    color: rgb(0, 255, 0);
+    white-space: nowrap; 
+    font-family: 'bios'; 
+    font-size: 65px; 
+    top: 7160px; 
+    left: 30px; 
+}
+
+#cashapp {
+    position: absolute; 
+    background-color: rgb(0, 255, 0);
+    border: 15px solid; 
+    border-color:rgb(3, 156, 0);
+    width: 500px; 
+    font-size: 50px; 
+    font-family: 'bios'; 
+    top: 8050px; 
+    left: 670px; 
+}
+
+#paypal {
+    position: absolute; 
+    background-color: rgb(0, 255, 0);
+    border: 15px solid; 
+    border-color:rgb(3, 156, 0);
+    width: 500px; 
+    font-size: 50px; 
+    font-family: 'bios'; 
+    top: 8050px; 
+    left: 60px; 
+}
+
+.divider4 {
+    position: absolute; 
+    background-color: rgb(0, 195, 19); 
+    width: 1180px; 
+    height: 30px; 
+    top: 8230px; 
+}
+
+h6 {
+    position: absolute; 
+    color: rgb(0, 255, 0); 
+    font-size: 86px; 
+    font-family: 'titles';
+    font-weight: 1; 
+    white-space: nowrap; 
+    top: 8100px; 
+    left: 150px; 
+}
+
+p6 {
+    position: absolute; 
+    color: rgb(0, 255, 0);
+    white-space: nowrap; 
+    font-family: 'bios'; 
+    font-size: 65px; 
+    top: 8460px; 
+    left: 45px; 
+}
+
+#clnevergivesup {
+    position: absolute; 
+    top: 9490px; 
+    left: 50px; 
+    width: 340px; 
+}
+
+#reclutch {
+    position: absolute; 
+    top: 9490px; 
+    left: 430px; 
+    width: 340px; 
+
+}
+
+#acm {
+    position: absolute; 
+    top: 9490px; 
+    left: 820px; 
+    width: 600px; 
+    width: 340px; 
+}
+
+.divider5 {
+    position: absolute; 
+    background-color: rgb(0, 195, 19); 
+    width: 1180px; 
+    height: 30px; 
+    top: 9990px; 
+}
+
+#clupossiblelogo {
+    position: absolute; 
+    width: 1010px; 
+    top: 9999px; 
+    left: -260px; 
+}
+
+h7 {
+    font-family: 'titles'; 
+    font-size: 100px; 
+    position: absolute; 
+    color: rgb(0, 255, 0); 
+    top: 10045px; 
+    left: 570px; 
+    text-decoration: underline;
+}
+
+p7 {
+    position: absolute; 
+    font-size: 65px; 
+    top: 10240px; 
+    color: rgb(0, 255, 0); 
+    font-family: 'bios'; 
+    white-space: nowrap; 
+    left: 537px; 
+}
+
+h8 {
+    position: absolute;
+    font-family: 'titles'; 
+    font-size: 100px; 
+    text-decoration: underline;
+    color: rgb(0, 255, 0); 
+    top: 10590px; 
+    left: 620px; 
+}
+
+#reclutchlogo {
+    position: absolute; 
+    width: 1010px;
+    top: 10580px; 
+    left: -260px; 
+}
+
+p8 {
+    position: absolute; 
+    font-size: 65px; 
+    color: rgb(0, 255, 0); 
+    font-family: 'bios'; 
+    white-space: nowrap; 
+    left: 550px; 
+    top: 10770px; 
+
+}
+
+#acmlogo {
+    position: absolute; 
+    width: 520px; 
+    top: 11190px; 
+    
+}
+
+h9 {
+    position: absolute; 
+    font-family: 'titles'; 
+    font-size: 100px; 
+    text-decoration: underline;
+    color: rgb(0, 255, 0); 
+    top: 11140px; 
+    left: 740px; 
+}
+
+p9 {
+    position: absolute; 
+    font-family: 'bios'; 
+    font-size: 50px; 
+    color: rgb(0, 255, 0); 
+    white-space: nowrap; 
+    top: 11300px;
+    left: 560px; 
+}
+
+#cqlogo {
+    position: absolute; 
+    width: 520px; 
+    top: 11660px; 
+}
+
+h10 {
+    position: absolute; 
+    font-family: 'titles'; 
+    font-size: 100px; 
+    text-decoration: underline;
+    color: rgb(0, 255, 0); 
+    top: 11560px; 
+    left: 790px; 
+}
+
+p10 {
+    position: absolute; 
+    font-family: 'bios'; 
+    font-size: 46px; 
+    top: 11726px; 
+    left: 540px;
+    white-space: nowrap; 
+    color: rgb(0, 255, 0); 
+}
+
+#clutchhourlogo {
+    position: absolute; 
+    width: 860px; 
+    top: 12050px; 
+    left: -150px; 
+}
+
+h11 {
+    position: absolute; 
+    font-family: 'titles'; 
+    font-size: 85px; 
+    text-decoration: underline; 
+    color: rgb(0, 255, 0); 
+    top: 12000px; 
+    left: 580px; 
+    white-space: nowrap; 
+}
+
+p11 {
+    position: absolute; 
+    font-family: 'bios'; 
+    font-size: 46px; 
+    top: 12200px; 
+    left: 494px;
+    white-space: nowrap; 
+    color: rgb(0, 255, 0); 
+}
+
+.divider6 {
+    position: absolute; 
+    background-color: rgb(0, 195, 19); 
+    width: 1180px; 
+    height: 30px; 
+    top: 12520px; 
+}
+
+#footer {
+    position: absolute; 
+    width: 1200px; 
+    top: 12550px; 
+
+}
+
+#youtubelogo {
+    position: absolute; 
+    width: 60px; 
+    top: 12935px; 
+    left: 904px; 
+}
+
+#snapchatlogo {
+    position: absolute; 
+    width: 60px; 
+    top: 12935px; 
+    left: 1020px; 
+}
+}
